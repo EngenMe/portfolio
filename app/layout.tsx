@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import FixedLayout from "../components/fixed-layout";
 
 export const metadata: Metadata = {
   title: "EngenMe | Mohamed Farouk Hasnaoui Portfolio",
@@ -15,14 +16,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-[url('/bg-light.jpg')] dark:bg-[url('/bg-dark.jpg')] bg-cover bg-no-repeat">
+      <body>
+        <div className="fixed top-0 left-0 w-full h-full bg-cover bg-no-repeat bg-center transition-colors duration-500 bg-[url('/bg-light.jpg')] dark:bg-[url('/bg-dark.jpg')]" />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <FixedLayout>{children}</FixedLayout>
         </ThemeProvider>
       </body>
     </html>

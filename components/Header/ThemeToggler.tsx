@@ -6,7 +6,7 @@ const ThemeToggler = () => {
 
   return (
     <button
-      className="rounded-full bg-background dark:bg-gray-800 shadow-md w-12 h-12 flex justify-center items-center transition-all duration-300"
+      className="rounded-full bg-background hover:bg-primary dark:hover:bg-primary dark:bg-gray-800 shadow-md w-12 h-12 flex justify-center items-center transition-all duration-300"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
       aria-label="Toggle Theme"
     >
