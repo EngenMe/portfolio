@@ -9,7 +9,16 @@ const ContactItem = ({ icon: Icon, label, contact }: Contact) => {
         </div>
         <div className="flex flex-col items-start">
           <div className="text-muted-foreground text-sm">{label}</div>
-          <div className="font-medium">{contact}</div>
+          <div className="font-medium">
+            {contact.includes("@") ? (
+              <>
+                {contact.split("@")[0]}
+                <br />@{contact.split("@")[1]}
+              </>
+            ) : (
+              contact
+            )}
+          </div>
         </div>
       </div>
       <hr />

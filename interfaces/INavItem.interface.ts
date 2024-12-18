@@ -4,4 +4,5 @@ export interface INavItem {
   icon: LucideIcon;
   label: string;
   route: string;
+  onClose?: () => void;
 }
