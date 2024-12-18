@@ -11,10 +11,13 @@ const ContactItem = ({ icon: Icon, label, contact }: Contact) => {
           <div className="text-muted-foreground text-sm">{label}</div>
           <div className="font-medium">
             {contact.includes("@") ? (
-              <>
-                {contact.split("@")[0]}
-                <br />@{contact.split("@")[1]}
-              </>
+              <div>
+                <div className="md:hidden lg:flex">
+                  {contact.split("@")[0]}
+                  <br />@{contact.split("@")[1]}
+                </div>
+                <div className="hidden md:flex lg:hidden">{contact}</div>
+              </div>
             ) : (
               contact
             )}

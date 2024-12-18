@@ -32,7 +32,8 @@ const About = () => {
             icon={item.icon}
             title={item.title}
             description={item.description}
-            bgColor={item.bgColor}
+            lightBgColor={item.lightBgColor}
+            darkBgColor={item.darkBgColor}
           />
         ))}
       </div>

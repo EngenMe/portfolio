@@ -2,5 +2,6 @@ export interface WhatIDoCard {
   icon: string;
   title: string;
   description: string;
-  bgColor: string;
+  lightBgColor: string;
+  darkBgColor: string;
 }
