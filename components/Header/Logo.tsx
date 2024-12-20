@@ -2,7 +2,9 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { SUSE } from "next/font/google";
 
-const suse = SUSE();
+const suse = SUSE({
+  subsets: ["latin"],
+});
 
 const Logo = () => {
   return (
