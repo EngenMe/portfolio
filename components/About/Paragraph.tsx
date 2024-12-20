@@ -5,6 +5,6 @@ interface Props {
 }
 
 const Paragraph = ({ children }: Props) => {
-  return <p className="text-muted-foreground">{children}</p>;
+  return <p className="text-muted-foreground animate-blur-in">{children}</p>;
 };
 export default Paragraph;

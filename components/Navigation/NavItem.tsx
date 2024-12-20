@@ -19,7 +19,7 @@ const NavItem = ({ icon: Icon, label, route, onClose }: INavItem) => {
       }}
       className={cn(
         isActive ? "bg-primary" : "bg-input",
-        "w-full lg:w-20 h-20 flex lg:flex-col rounded-xl text-sm font-bold hover:bg-primary hover:text-foreground"
+        "w-full lg:w-20 h-20 flex lg:flex-col rounded-xl text-sm font-bold hover:bg-primary hover:text-foreground lg:animate-blur-in"
       )}
     >
       <Icon
