@@ -22,7 +22,7 @@ export const educationCards: IResumeCard[] = [
   },
   {
     dateFrom: new Date(2024, 0),
-    dateTo: new Date(2024, 3),
+    dateTo: new Date(2024, 5),
     title: "Problem Solving With C++, Backend with C#, and SQL",
     location: "Programming Advices",
     lightBgColor: "#FFF1FB",
