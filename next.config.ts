@@ -1,9 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  images: {
-    domains: ["avatar.vercel.sh"],
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
