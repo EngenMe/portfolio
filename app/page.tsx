@@ -1,4 +1,4 @@
-import IconCloudComponent from "@/components/Main/IconCloudComponent";
+import GlobeComponent from "@/components/Main/GlobeComponent";
 import BlurIn from "@/components/ui/blur-in";
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
         word="Transforming Your Vision Into Digital Reality"
         className="text-4xl font-bold text-primary dark:text-white"
       />
-      <IconCloudComponent />
+      <GlobeComponent />
     </div>
   );
 };
