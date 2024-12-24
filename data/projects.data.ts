@@ -29,7 +29,7 @@ export const projects: Project[] = [
       { icon: SiJest, title: "Jest", color: "#C21325" },
       { icon: RiTailwindCssFill, title: "Tailwind CSS", color: "#38B2AC" },
     ],
-    link: "https://patient-management-system-frontend.vercel.app/",
+    link: "https://www.carepulse.pro/",
     description:
       "The Patient Management System is a web-based application designed to streamline the patient onboarding process, appointment scheduling, and administrative oversight. It offers an intuitive interface for patients to register, verify their identity via SMS-based One-Time Password (OTP), and schedule appointments with doctors. Administrators can manage appointments through a secure dashboard, ensuring smooth healthcare service delivery. The system follows a modern, secure, and scalable architecture built with industry-standard technologies, emphasizing both performance and maintainability.",
   },
