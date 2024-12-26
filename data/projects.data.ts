@@ -47,7 +47,7 @@ export const projects: Project[] = [
       { icon: SiJest, title: "Jest", color: "#C21325" },
       { icon: RiTailwindCssFill, title: "Tailwind CSS", color: "#38B2AC" },
     ],
-    link: "https://algo-fork.vercel.app/",
+    link: "https://www.algofork.com/",
     description:
       "AlgoFork is a full stack, free alternative to LeetCode, providing coding challenges focused on algorithms and problem-solving. It emphasizes understanding real-world scenarios, helping developers solve problems and grasp the reasoning behind them. The platform will offer a fun, interactive learning experience to improve coding skills",
   },
