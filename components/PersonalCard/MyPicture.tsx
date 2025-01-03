@@ -11,7 +11,7 @@ const MyPicture = () => {
     <div className="w-[240px] h-[240px] overflow-hidden rounded-[20px] absolute -top-32 z-10">
       {isLoading && <Skeleton className="w-full h-full rounded-[20px]" />}
       <Image
-        src="/my-picture.jpg"
+        src="/my-picture.jpeg"
         alt="Mohamed personal picture"
         layout="fill"
         objectFit="cover"
